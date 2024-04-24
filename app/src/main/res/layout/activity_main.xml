@@ -3,5 +3,11 @@
     android:layout_height="match_parent" >
 
     <!--include layout引入自定义布局-->
-    <include layout="@layout/title" />
+    <!--   <include layout="@layout/title" />    -->
+
+    <!--自定义控件方式引入布局-->
+    <com.example.learn_android_4.TitleLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
 </LinearLayout>
